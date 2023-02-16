@@ -34,13 +34,21 @@ every time use classifier for train the model and get predict every time for tes
 We splited the data set into train and test parts. Used 70% of the data for the training phase and the remained 30% for the testing phase. Run our codes for 10 individual runs and reported the mean and standard deviation of 10 runs for each performance metric.
 
 Since the data set is imbalanced, you should use Precision, Recall, F-measure, and AUC measures to evaluate the performance of these algorithms. It is worth mentioning that these measures are one-class measures; in other words, you should compute these metrics just for the minority class. Moreover, G-mean should be reported.
-.
+___
+___
+
 𝑻𝒓𝒖𝒆 𝑷𝒐𝒔𝒊𝒕𝒊𝒗𝒆 𝑹𝒂𝒕𝒆 (𝑨𝒄𝒄+)=𝑻𝑷/(𝑻𝑷+𝑭𝑵)
-.
+
+___
+
 𝑻𝒓𝒖𝒆 𝑵𝒆𝒈𝒂𝒕𝒊𝒗𝒆 𝑹𝒂𝒕𝒆 (𝑨𝒄𝒄−)=𝑻𝑵/(𝑻𝑵+𝑭𝑷)
-.
+
+___
+
 𝑮−𝒎𝒆𝒂𝒏=√𝑨𝒄𝒄+×𝑨𝒄𝒄−
-.
+
+___
+
 Compared the performance of our ensemble methods with the following classifiers: Naïve Bayes, One-nearest-neighbor (OneNN), linear SVM, and kernel SVM (use RBF kernel). For each classifier, used the balanced version of the data by the oversampling and undersampling techniques.
 Under-sampling deletes majority examples from the dataset so that the number of examples between different classes becomes balanced.
 Over-sampling is to add minority examples to the dataset to achieve a balance, in which the existing minority examples are replicated, or artificial minority examples are generated.
