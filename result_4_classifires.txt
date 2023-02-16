@@ -1,0 +1,15 @@
+++++++++++++++++++++++ underSampler ++++++++++++++++++++++
+accuracy naive bayes:  55.00000000000001
+accuracy ONN:  61.66666666666667
+accuracy lin svc:  61.66666666666667
+accuracy smv with kernel rbf:  48.333333333333336
+++++++++++++++++++++++ overSampler ++++++++++++++++++++++
+accuracy naive bayes:  56.11672278338945
+accuracy ONN:  85.52188552188552
+accuracy lin svc:  70.2581369248036
+accuracy smv with kernel rbf:  74.5230078563412
+++++++++++++++++++++++ overSampler SMOTE ++++++++++++++++++++++
+accuracy naive bayes:  59.93265993265994
+accuracy ONN:  79.46127946127946
+accuracy lin svc:  75.30864197530865
+accuracy smv with kernel rbf:  76.87991021324355
